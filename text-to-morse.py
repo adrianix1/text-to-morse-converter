@@ -9,4 +9,6 @@ for letter in user_input:
         morse_output.append(MCD[letter])
     else:
          morse_output.append(letter)
-print(f'Your string in morse code: {morse_output}')
+
+str_output = " "
+print(f'Your string in morse code: {str_output.join(morse_output)}')
